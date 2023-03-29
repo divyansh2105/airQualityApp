@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
       time: responseDate?.toTimeString()
     });
   } catch(error) {
-    console.log(error);
+    console.log(error.message);
     res.status(500).json({message: error.message});
   }
 });
