@@ -1,4 +1,4 @@
-# yassirAirQualityApp
+# airQualityApp
 
 Project structure:
 - src - Source code for the app
